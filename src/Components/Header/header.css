@@ -1,0 +1,90 @@
+header{
+    background-color: #2874f0;
+}
+nav{
+   
+   height:55px;
+   width: 70%;
+   margin:auto;
+   display: flex;
+   align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40px;
+}
+.logo >img{
+    height: 20px;
+}
+
+.logoFooter{
+    display: flex;
+    font-size: 12px;
+    font-style: italic;
+    
+}
+.logoFooter >span:nth-child(1){
+    color:white
+}
+.logoFooter >span:nth-child(2){
+    color:yellow;
+    margin-left:2px;
+}
+.logoFooter>img{
+    height: 14px;
+}
+.search{
+    flex:2;
+    display: flex;
+
+    padding:0px 15px;
+}
+.searchBar{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    padding: 0px 15px;
+    height: 35px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.searchBar>input{
+    width:80%;
+    font-size: 14px;
+    border:0;
+  
+}
+.searchBar>svg{
+    color: #2874f0;
+    font-size: 18px;
+}
+.headerOption{
+    display: flex;
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+}
+.headerIcon{
+    position:relative;
+}
+.headerIcon>svg{
+    /* color:white; */
+    font-size: 20px;
+    margin-right: 4px;
+}
+.iconBadge{
+    background: red;
+    padding: 0px 4px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    right: -2px;
+    font-size: 14px;
+}

@@ -1,0 +1,114 @@
+.cart{
+    height: 100px;
+    display: flex;
+    min-height: calc(100vh - 80px);
+    height: fit-content;
+    padding: 25px 55px 0px 55px;
+}
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 350px;
+
+}
+.emptyCart>img{
+    width:240px;
+}
+.emptyCart >button{
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+    padding: 12px 72px;
+    background: #2874f0;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+}
+.cartSection{
+    flex:3;
+}
+.orderSummary{
+    flex:1.5;
+    margin-left: 20px;
+
+}
+.cart >section:nth-child(n){
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+    /* background-color: white; */
+    padding:5px;
+}
+.cartProducts,.savedProducts{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 350px;
+    padding:10px;
+    border-radius: 3px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background-color: white;
+
+}
+
+.orderDetail{
+    padding:10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.orderDetail__header{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(41, 41, 41);
+
+}
+.orderDetail__body{
+    flex:3;
+    margin:10px 0px;
+}
+.orderDetail__row{
+    display: flex;
+    justify-content: space-between;
+    margin :5px 0px;
+    font-size: 18px;
+}
+.orderDetail__row >p:nth-child(n){
+    font-weight: 500;
+    font-size: 18px;
+}
+.orderDetail__footer{
+    border-top: 1px solid black;
+}
+.orderDetail__row:nth-child(2){
+    color:orange
+}
+.cartProducts__header{
+    padding: 10px 2px;
+    color:rgb(44, 43, 43);
+    font-weight: 500;
+}
+.cartProducts__header>p{
+    font-size: 20px;
+}
+
+
+.cartProducts__footer{
+    display: flex;
+    justify-content: flex-end;
+    padding:7px 5px;
+}
+.cartProducts__body{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
